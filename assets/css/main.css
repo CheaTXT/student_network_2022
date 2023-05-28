@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Anton&family=Open+Sans:wght@700&family=Ubuntu:wght@500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -11,22 +13,45 @@
     margin: auto;
 }
 .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 390px;
     height: 70px;
     background-color: aliceblue;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.message{
+    width: 30px;
+    margin-left: 190px;
+    color: bisque;
+} 
+.icon_title{
+    width: 40%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: beige; */
+}
 .icon{
-    background-color: beige;
+    width: 70px;
+    /* background-color: blueviolet; */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    /* background-color: aqua; */
+    font-family: 'Andika', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content{
     width: 390px;
-    padding: 10px;
-}
-.icon_img{
-    width: 45px;
-}
-.message{
-    width: 50px;
+    height: 70px;
 }
