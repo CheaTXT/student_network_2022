@@ -9,7 +9,7 @@
     width: 390px;
     height: 844px;
     background-color: aquamarine;
-    display: flex;
+    /* display: flex; */
     margin: auto;
 }
 .nav{
@@ -53,5 +53,21 @@
 }
 .content{
     width: 390px;
+    height: 70px;
+    background-color: bisque;
+}
+.name_pf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: yellowgreen;
+}
+.name{
+    background-color: blueviolet;
+}
+.pf img{
+    padding-top: 10px;
+    background-color: azure;
     height: 70px;
 }
