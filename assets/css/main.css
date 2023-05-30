@@ -285,9 +285,7 @@ p{
 
 .bottom{
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
-    height: 40px;
 }
 .home {
     margin-left: 10px;
